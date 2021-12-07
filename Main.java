@@ -7,5 +7,6 @@ public class Main {
         double d = s.nextDouble();
         System.out.println(i);
         System.out.println(d);     
+        s.close();
     }
 }
