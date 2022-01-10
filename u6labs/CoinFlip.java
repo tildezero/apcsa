@@ -1,3 +1,5 @@
+package u6labs;
+
 import java.util.Scanner;
 
 public class CoinFlip {
@@ -17,5 +19,6 @@ public class CoinFlip {
             System.out.println("incorrect :( (or you didnt enter 1 or 0)");
         }
 
+        s.close();
     }    
 }

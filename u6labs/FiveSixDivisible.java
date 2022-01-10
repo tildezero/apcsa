@@ -1,3 +1,5 @@
+package u6labs;
+
 import java.util.Scanner;
 
 public class FiveSixDivisible {
@@ -17,5 +19,6 @@ public class FiveSixDivisible {
             // if the number isnt divisible by 5 or 6 at all, execute this branch
             System.out.println("the number is not divisible by 5 or 6");
         }
+        in.close();
     }
 }

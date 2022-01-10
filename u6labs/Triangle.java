@@ -1,3 +1,5 @@
+package u6labs;
+
 import java.util.Scanner;
 
 public class Triangle {
@@ -19,6 +21,6 @@ public class Triangle {
             // if the side lengths do not match the triangle inequality theorem, tell the user that the triangle is invalid
             System.out.println("invalid triangle");
         }
-
+        s.close();
     }
 }

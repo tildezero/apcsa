@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch GuessTheNumber",
+            "request": "launch",
+            "mainClass": "GuessTheNumber",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatAdditionQuiz",
+            "request": "launch",
+            "mainClass": "RepeatAdditionQuiz",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch A",
+            "request": "launch",
+            "mainClass": "A",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Trolla",
+            "request": "launch",
+            "mainClass": "Trolla",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch TestTwo",
             "request": "launch",
             "mainClass": "TestTwo",

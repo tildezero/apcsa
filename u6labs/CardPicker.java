@@ -1,3 +1,5 @@
+package u6labs;
+
 public class CardPicker {
     public static void main(String[] args) {
         // initialize the ranks and suits
