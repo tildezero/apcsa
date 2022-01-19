@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Counter",
+            "request": "launch",
+            "mainClass": "u7labs.Counter",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourPatternsD",
+            "request": "launch",
+            "mainClass": "u7labs.FourPatternsD",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourPatternsB",
+            "request": "launch",
+            "mainClass": "u7labs.FourPatternsB",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourPatternsA",
+            "request": "launch",
+            "mainClass": "u7labs.FourPatternsA",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FourPatternsC",
+            "request": "launch",
+            "mainClass": "u7labs.FourPatternsC",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch Tuition",
             "request": "launch",
             "mainClass": "u7labs.Tuition",

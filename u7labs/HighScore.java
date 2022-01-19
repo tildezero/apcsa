@@ -1,5 +1,3 @@
-package u7labs;
-
 import java.util.Scanner;
 
 public class HighScore {
