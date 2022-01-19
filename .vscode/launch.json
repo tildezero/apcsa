@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Tuition",
+            "request": "launch",
+            "mainClass": "u7labs.Tuition",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HighScore",
+            "request": "launch",
+            "mainClass": "u7labs.HighScore",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab1",
+            "request": "launch",
+            "mainClass": "u7labs.Lab1",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch GuessTheNumber",
             "request": "launch",
             "mainClass": "GuessTheNumber",
