@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch OneDimArrays",
+            "request": "launch",
+            "mainClass": "u8.OneDimArrays",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch Counter",
             "request": "launch",
             "mainClass": "u7labs.Counter",

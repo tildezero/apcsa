@@ -1,3 +1,5 @@
+package u7labs;
+
 import java.util.Scanner;
 
 public class Counter {
@@ -26,5 +28,7 @@ public class Counter {
         } 
 
         System.out.printf("positives: %d\nnegatives: %d\ntotal: %d\navg: %.2f\n", pos, neg, num, (total / (num * 1.0)));
+
+        s.close();
     }
 }
