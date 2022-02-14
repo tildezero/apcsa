@@ -73,6 +73,6 @@ public class TF {
 
         System.out.printf("avg: %.2f\n# items > avg: %d\nmax: %.1f, min: %.1f\n", avg, nga, max, min);
 
-
+        s.close();
     } 
 }

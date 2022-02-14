@@ -10,5 +10,7 @@ public class Lotto {
        while (s.hasNext()) {
            System.out.println(s.nextInt());
        }
+
+       s.close();
    }
 }
