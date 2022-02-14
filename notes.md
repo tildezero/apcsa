@@ -22,5 +22,9 @@ else // THIS IS PART OF CONDITIONAL NUMBER 2
 - if you negate a < or > it becomes <= or >=
 
 
-### negation of relational operators
-- 
+### bulk rename package
+`for f in *.java; do sed -i "1d" $f; sed -i "1i package PACKAGE.NAME;" $f; done`
+
+### getters and setters 
+- used to get/set values of private variables
+- ap will use accessors and mutators

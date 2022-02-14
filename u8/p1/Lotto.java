@@ -1,4 +1,4 @@
-package u8;
+package u8.p1;
 
 import java.io.*;
 import java.util.Scanner;

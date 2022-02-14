@@ -1,4 +1,4 @@
-package u8;
+package u8.p1;
 public class OneDimArrays {
    @SuppressWarnings("all")
    public static void main(String[] args) {

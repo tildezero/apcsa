@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CopyingArrays",
+            "request": "launch",
+            "mainClass": "CopyingArrays",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch Lotto",
             "request": "launch",
             "cwd": "${workspaceFolder}/u8",
