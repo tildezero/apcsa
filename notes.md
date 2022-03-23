@@ -22,8 +22,16 @@ else // THIS IS PART OF CONDITIONAL NUMBER 2
 - if you negate a < or > it becomes <= or >=
 
 
-### bulk rename package
-`for f in *.java; do sed -i "1d" $f; sed -i "1i package PACKAGE.NAME;" $f; done`
+### command line utilities
+- bulk rename packages: `for f in *.java; do sed -i "1d" $f; sed -i "1i package PACKAGE.NAME;" $f; done`
+- remove all classes in directory: `rm *.class`
+- j function: 
+```sh
+j() {
+    javac $1.java
+    java $1
+}
+```
 
 ### getters and setters 
 - used to get/set values of private variables

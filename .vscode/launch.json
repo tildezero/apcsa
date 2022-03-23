@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ProcessingTwoDimArrays",
+            "request": "launch",
+            "mainClass": "ProcessingTwoDimArrays",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch InitWithLoops",
+            "request": "launch",
+            "mainClass": "InitWithLoops",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArraysOfObjects",
+            "request": "launch",
+            "mainClass": "ArraysOfObjects",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch CopyingArrays",
             "request": "launch",
             "mainClass": "CopyingArrays",
