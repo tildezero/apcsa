@@ -15,10 +15,10 @@ public class U10Notes {
 
         ArrayList<String> names;
         
-        // returns an arraylist with the words from another arraylist
-        // that have 5 or more letters in them
     }    
 
+    // returns an arraylist with the words from another arraylist
+    // that have 5 or more letters in them
     public static ArrayList<String> fiveOrLonger(ArrayList<String> words) {
        ArrayList<String> w5 = new ArrayList<String>(); 
     }
