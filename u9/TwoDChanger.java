@@ -13,4 +13,22 @@ public class TwoDChanger {
             }
         }
     }
+
+    public static int sum(int[] r) {
+        int s = 0;
+        for (int i: r) {
+            s += i;
+        }
+
+        return s;
+    }
+
+    public static int[] awsr(int[][] m) {
+        int[] s = new int[m.length];
+        for (int i = 0; i < m.length; i++) {
+            s[i] = sum(m[i]);
+        }
+
+        return s;
+    }
 }

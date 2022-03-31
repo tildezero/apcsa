@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MCQ",
+            "request": "launch",
+            "mainClass": "u9.MCQ",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch ProcessingTwoDimArrays",
             "request": "launch",
             "mainClass": "ProcessingTwoDimArrays",
