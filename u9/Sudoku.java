@@ -3,8 +3,6 @@ public class Sudoku {
     private int[][] puzzle;
 
     public boolean isValidSolution() {
-        boolean valid = true;
-
         // check each row
         for (int[] row: this.puzzle) 
             if (!contains19(row)) return false;
@@ -26,6 +24,7 @@ public class Sudoku {
             }
         }
 
+        return true;
 
     }
 

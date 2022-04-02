@@ -24,7 +24,7 @@ public class U10Notes {
         // autoboxing (primitive -> wrapper)
         samples.add(3.14);
         // autoboxing and typecasting (primitive int -> double -> wrapped double)
-        samples.add(4);
+        samples.add((double) 4);
 
         
     }    

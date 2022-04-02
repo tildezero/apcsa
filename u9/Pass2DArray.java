@@ -1,5 +1,4 @@
 package u9;
-import java.util.Scanner;
 
 public class Pass2DArray {
     public static void main(String[] args) {

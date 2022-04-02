@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SumColumn",
+            "request": "launch",
+            "mainClass": "SumColumn",
+            "projectName": "java_dde2a2e"
+        },
+        {
+            "type": "java",
             "name": "Launch MCQ",
             "request": "launch",
             "mainClass": "u9.MCQ",
