@@ -1,8 +1,3 @@
-## the questions
-1. no 
-2. 50
-3. 45
-
 ## the notes
 - && before || 
 - ^ = XOR, only 1 side must be right, if both are right, false
@@ -36,3 +31,14 @@ j() {
 ### getters and setters 
 - used to get/set values of private variables
 - ap will use accessors and mutators
+
+### array list methods
+- `int size()` - gets **size** of array (diff from capacity)
+- `boolean isEmpty()` - checks if array is empty
+- `boolean add(E element)` - adds something to the array, true if successful
+- `void add(int i, E element)` - add item to index `i`
+- `E get(int i)` - get element of type `E` at index `i`
+- `E remove(int i)` - removes an element at index `i` and returns it
+- `boolean contains(Object obj)` - sees if the arraylist contains `obj`
+- `int indexOf(Object obj)` - if arraylist contains `obj`, return the index of it (first occurence), if it doesn't, return -1
+- `String toString()` - displays the ArrayList as a string
