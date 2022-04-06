@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LocateLargest",
+            "request": "launch",
+            "mainClass": "LocateLargest",
+            "projectName": "java_dde2a2e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumMajorDiagonal",
+            "request": "launch",
+            "mainClass": "SumMajorDiagonal",
+            "projectName": "java_dde2a2e"
+        },
+        {
+            "type": "java",
             "name": "Launch SumColumn",
             "request": "launch",
             "mainClass": "SumColumn",
