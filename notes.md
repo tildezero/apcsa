@@ -42,3 +42,55 @@ j() {
 - `boolean contains(Object obj)` - sees if the arraylist contains `obj`
 - `int indexOf(Object obj)` - if arraylist contains `obj`, return the index of it (first occurence), if it doesn't, return -1
 - `String toString()` - displays the ArrayList as a string
+
+### arraylist vs array
+
+#### making
+- AL: `ArrayList<Object> list = new ArrayList<Object>();`
+- L: `Object[] a = new Object[size];`
+
+#### updating element
+- AL: `list.get(index)`
+- L: `a[index]`
+
+#### returning size
+- L: `a.length`
+- AL: `list.size()`
+
+#### adding new element
+- L:
+
+```java
+Object[] temp = new Object[a.length * 2];
+for (int i = 0; i < a.length; i++) {
+    temp[i] = a[i];
+}
+
+temp[a.length] = "New Object"
+a = temp
+```
+
+- AL: `list.add("New Object")`
+
+#### inserting new element
+- L: lots of work
+- AL: `list.add(index, "new object")`
+
+### arraylist stuff
+
+#### removing an object
+- AL: `list.remove(5)` (by index) and `list.remove("London")` (remove first occurence of value)
+- Also AL:
+```java
+ArrayList<Integer> is = new ArrayList<>();
+is.remove(5) // removes index 5
+is.remove(new Integer(5)) // removes first occurence of value 5
+```
+
+#### clearing a list 
+- `list.clear()` - makes size 0
+
+### choosing between array and arraylist
+- fixed size: array
+- lots of primitives, good performance: array
+- everything else: arraylist

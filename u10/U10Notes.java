@@ -2,6 +2,7 @@ package u10;
 
 import java.util.ArrayList;
 
+
 @SuppressWarnings("all")
 public class U10Notes {
     public static void main(String[] args) {
@@ -26,8 +27,70 @@ public class U10Notes {
         // autoboxing and typecasting (primitive int -> double -> wrapped double)
         samples.add((double) 4);
 
+        int normalArr[] = new int[5];
+        arr[5]; // arrayindexoutofboundserror
+
+        ArrayList<Integer> arl = new ArrayList<>();
+        arl.get(5); // indexoutofboundserror
+
+        ArrayList<String>[] mls = new ArrayList[5];
+        mls[2].add("yeah"); // one method 
+        for (ArrayList a: mls) {
+            System.out.println(a.toString());
+        }
+
+        ArrayList<Object> oal = new ArrayList<>();
+        oal.get(5).toString(); // method chaining
+        
+
+        // arraylist pitfalls
+
+        // for loops are not always the best option for ArrayLists
+
+        ArrayList<String> sentence = new ArrayList<>();
+        int n = sentence.size();
+        for (int i = 0; i < n; i++) 
+            if ("like".equals(sentence.get(i)))
+                sentence.remove(i);
+        
+        // BAD: incrementing i, but the elements are shifted back, because sentence.size is dynamic
+        for (int i = 0; i < sentence.size(); i++) 
+            if ("like".equals(sentence.get(i))) sentence.remove(i);
+        
+        // instead use while
+        int i = 0;
+        while (i < sentence.size()) {
+            if ("like".equals(sentence.get(i))) sentence.remove(i);
+            else i++;
+        } 
+       
+        obj1.equals(obj2); // checks if obj1 == obj2
+
+        String[] names = {"bob", "bob2", "bob3"};
+        ArrayList<Person> guests = makeGuestList(names);
         
     }    
+
+    // perosn has an instance variable called name
+    // v1
+    public static ArrayList<Person> makeGuestList(String[] names) {
+        ArrayList<Person> list = new ArrayList<>();
+        for (String n: names) {
+            list.add(new Person(n));
+        }
+        return list;
+    }
+
+    // v2
+    public static ArrayList<Person> makeGuestListTwo(String[] names) {
+       ArrayList<Person> ns = new ArrayList<>(); 
+       Person p = new Person();
+       for (int i = 0; i < names.length; i++) {
+            p.setName(names[i]);
+            ns.add(p);
+       }
+       return ns;
+    }
 
     // returns an arraylist with the words from another arraylist
     // that have 5 or more letters in them
@@ -37,5 +100,17 @@ public class U10Notes {
            if (s.length() >= 5) w5.add(s);
        }
        return w5;
+    }
+}
+
+class Person {
+    private String name;
+
+    public Person(String n) {
+        this.name = n;
+    }
+
+    public void setName(String n) {
+        this.name = n;
     }
 }
