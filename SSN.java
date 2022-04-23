@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// lab #1
 public class SSN {
    public static void main(String[] args) {
        Scanner s = new Scanner(System.in);
