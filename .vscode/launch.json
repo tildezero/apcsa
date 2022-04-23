@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SSN",
+            "request": "launch",
+            "mainClass": "SSN",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch Password",
             "request": "launch",
             "mainClass": "Password",
