@@ -1,3 +1,5 @@
+package u9labs;
+
 import java.util.Scanner;
 
 public class SumColumn {
@@ -10,6 +12,8 @@ public class SumColumn {
                mx[i][j] = s.nextDouble(); 
             }
         }
+
+        s.close();
 
         for (int i = 0; i < mx[0].length; i++) {
             double sum = sumColumn(mx, i);

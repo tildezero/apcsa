@@ -1,3 +1,5 @@
+package u9labs;
+
 import java.util.Scanner;
 
 public class LocateLargest {
@@ -15,6 +17,8 @@ public class LocateLargest {
                 m[i][j] = s.nextDouble();
             }
         }
+
+        s.close();
 
         int[] lgst = locateLargest(m);
         System.out.printf("The location of the largest element is at (%d, %d)\n", lgst[0], lgst[1]);

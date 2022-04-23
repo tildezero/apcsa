@@ -28,7 +28,7 @@ public class U10Notes {
         samples.add((double) 4);
 
         int normalArr[] = new int[5];
-        arr[5]; // arrayindexoutofboundserror
+        // arr[5]; // arrayindexoutofboundserror
 
         ArrayList<Integer> arl = new ArrayList<>();
         arl.get(5); // indexoutofboundserror
@@ -63,11 +63,13 @@ public class U10Notes {
             if ("like".equals(sentence.get(i))) sentence.remove(i);
             else i++;
         } 
-       
+        
+        Object obj2 = new Object();
+        Object obj1 = new Object();
         obj1.equals(obj2); // checks if obj1 == obj2
 
-        String[] names = {"bob", "bob2", "bob3"};
-        ArrayList<Person> guests = makeGuestList(names);
+        String[] na = {"bob", "bob2", "bob3"};
+        ArrayList<Person> guests = makeGuestList(na);
         
     }    
 
@@ -104,13 +106,12 @@ public class U10Notes {
 }
 
 class Person {
-    private String name;
+    public Person() {
+    }
 
     public Person(String n) {
-        this.name = n;
     }
 
     public void setName(String n) {
-        this.name = n;
     }
 }

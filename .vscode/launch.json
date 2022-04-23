@@ -6,6 +6,76 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Password",
+            "request": "launch",
+            "mainClass": "Password",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch CharCounter",
+            "request": "launch",
+            "mainClass": "CharCounter",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Phone",
+            "request": "launch",
+            "mainClass": "Phone",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "u12.Factorial",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lotto",
+            "request": "launch",
+            "mainClass": "u8.p1.Lotto",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgrammingExamples",
+            "request": "launch",
+            "mainClass": "u11.ProgrammingExamples",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveDashes",
+            "request": "launch",
+            "mainClass": "RemoveDashes",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Notes",
+            "request": "launch",
+            "mainClass": "u11.Notes",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch TaskRunner",
+            "request": "launch",
+            "mainClass": "TaskRunner",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Runner",
+            "request": "launch",
+            "mainClass": "Runner",
+            "projectName": "java_ac4e254b"
+        },
+        {
+            "type": "java",
             "name": "Launch LocateLargest",
             "request": "launch",
             "mainClass": "LocateLargest",

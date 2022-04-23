@@ -94,3 +94,9 @@ is.remove(new Integer(5)) // removes first occurence of value 5
 - fixed size: array
 - lots of primitives, good performance: array
 - everything else: arraylist
+
+### concurrentmodificationexception
+- you cannot modify an arraylist while looping over it 
+
+### string methods
+`String.length()` - gets length of a string (**this is a method not an attribute**, so it has parenthesis)

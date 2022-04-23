@@ -1,3 +1,5 @@
+package u9labs;
+
 import java.util.Scanner;
 
 public class SumMajorDiagonal {
@@ -12,6 +14,8 @@ public class SumMajorDiagonal {
                m[i][j] = s.nextDouble();
             } 
         }
+
+        s.close();
 
         System.out.printf("Sum of the elements in the major diagonal is %.1f\n", sumMajorDiagonal(m));
     }
